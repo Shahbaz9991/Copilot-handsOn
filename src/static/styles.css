@@ -78,17 +78,14 @@ section h3 {
   margin-top: 10px;
   padding-left: 30px; /* Increased padding for better indentation */
   list-style-type: disc;
-  background-color: #f1f8e9;
-  border: 1px solid #c5e1a5;
   border-radius: 5px;
   padding: 15px; /* Increased padding for better spacing */
 }
 
 .activity-card ul li {
   margin-bottom: 8px; /* Slightly increased margin for better spacing */
-  color: #33691e;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal; /* Changed from bold to normal */
 }
 
 .form-group {
@@ -125,7 +122,7 @@ button:hover {
   background-color: #3949ab;
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
