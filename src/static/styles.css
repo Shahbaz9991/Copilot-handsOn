@@ -17,11 +17,12 @@ body {
 
 header {
   text-align: center;
-  padding: 20px 0;
-  margin-bottom: 30px;
-  background-color: #1a237e;
-  color: white;
-  border-radius: 5px;
+  padding: 40px 0; /* Adjusted padding for closer match */
+  margin-bottom: 50px; /* Adjusted margin for better separation */
+  background-color: #1e88e5; /* Updated to match the sample */
+  color: #ffffff;
+  border-radius: 10px; /* Adjusted border radius */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
 }
 
 header h1 {
@@ -29,9 +30,9 @@ header h1 {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: grid; /* Changed to grid layout for better control */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Reduced gap for tighter layout */
   justify-content: center;
 }
 
@@ -42,12 +43,12 @@ main {
 }
 
 section {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 30px; /* Adjusted padding for better spacing */
+  border-radius: 10px; /* Adjusted border radius */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adjusted shadow for depth */
   width: 100%;
-  max-width: 500px;
+  max-width: 600px; /* Adjusted max width */
 }
 
 section h3 {
@@ -58,20 +59,66 @@ section h3 {
 }
 
 .activity-card {
-  margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  margin-bottom: 20px; /* Adjusted margin for spacing */
+  padding: 20px; /* Adjusted padding for better spacing */
+  border: 1px solid #ccc; /* Adjusted border color */
+  border-radius: 8px; /* Adjusted border radius */
+  background-color: #fdfdfd; /* Slightly lighter background */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
 }
 
 .activity-card h4 {
-  margin-bottom: 10px;
-  color: #0066cc;
+  margin-bottom: 12px; /* Adjusted margin */
+  color: #1565c0; /* Updated color to match sample */
+  font-size: 20px; /* Adjusted font size */
+  font-weight: bold; /* Ensured bold text */
 }
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card ul {
+  margin-top: 15px; /* Adjusted margin */
+  padding-left: 30px; /* Added slight indentation */
+  list-style-type: disc;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 14px; /* Adjusted padding */
+  box-shadow: none; /* Removed shadow */
+}
+
+.activity-card ul li {
+  margin-bottom: 8px; /* Slightly increased margin for better spacing */
+  font-size: 14px;
+  font-weight: normal; /* Changed from bold to normal */
+}
+
+.participants {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.participants h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #1a237e;
+  font-weight: bold;
+}
+
+.participants ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.participants ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
 }
 
 .form-group {
@@ -94,21 +141,22 @@ section h3 {
 }
 
 button {
-  background-color: #1a237e;
+  background-color: #1565c0; /* Updated color to match sample */
   color: white;
   border: none;
-  padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 5px;
+  padding: 14px 24px; /* Adjusted padding */
+  font-size: 16px; /* Adjusted font size */
+  border-radius: 10px; /* Adjusted border radius */
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #0d47a1; /* Updated hover color */
+  transform: scale(1.05); /* Added hover scale effect */
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
@@ -138,7 +186,10 @@ button:hover {
 
 footer {
   text-align: center;
-  margin-top: 30px;
-  padding: 20px;
-  color: #666;
+  margin-top: 60px; /* Adjusted margin */
+  padding: 25px; /* Adjusted padding */
+  font-size: 14px;
+  color: #555; /* Adjusted color */
+  background-color: #f1f1f1; /* Added background color */
+  border-top: 1px solid #ddd; /* Added border for separation */
 }
