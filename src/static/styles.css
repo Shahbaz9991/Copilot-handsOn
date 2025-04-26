@@ -17,11 +17,11 @@ body {
 
 header {
   text-align: center;
-  padding: 20px 0;
-  margin-bottom: 30px;
-  background-color: #1a237e;
-  color: white;
-  border-radius: 5px;
+  padding: 30px 0; /* Increased padding for better spacing */
+  margin-bottom: 40px; /* Increased margin for better separation */
+  background-color: #283593; /* Slightly darker shade for better contrast */
+  color: #ffffff;
+  border-radius: 8px; /* Increased border radius for smoother corners */
 }
 
 header h1 {
@@ -29,9 +29,9 @@ header h1 {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: grid; /* Changed to grid layout for better control */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Reduced gap for tighter layout */
   justify-content: center;
 }
 
@@ -43,9 +43,9 @@ main {
 
 section {
   background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px; /* Increased padding for better readability */
+  border-radius: 8px; /* Increased border radius for smoother corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for better depth */
   width: 100%;
   max-width: 500px;
 }
@@ -111,9 +111,9 @@ button {
   background-color: #1a237e;
   color: white;
   border: none;
-  padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 5px;
+  padding: 12px 20px; /* Increased padding for better click area */
+  font-size: 18px; /* Increased font size for better readability */
+  border-radius: 8px; /* Increased border radius for smoother corners */
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -152,7 +152,8 @@ message {
 
 footer {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px; /* Increased margin for better separation */
   padding: 20px;
-  color: #666;
+  font-size: 14px; /* Reduced font size for a subtler appearance */
+  color: #444; /* Slightly darker color for better contrast */
 }
