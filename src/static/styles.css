@@ -95,6 +95,32 @@ section h3 {
   font-weight: normal; /* Changed from bold to normal */
 }
 
+.participants {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.participants h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #1a237e;
+  font-weight: bold;
+}
+
+.participants ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.participants ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
