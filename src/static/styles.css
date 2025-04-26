@@ -17,11 +17,12 @@ body {
 
 header {
   text-align: center;
-  padding: 30px 0; /* Increased padding for better spacing */
-  margin-bottom: 40px; /* Increased margin for better separation */
-  background-color: #283593; /* Slightly darker shade for better contrast */
+  padding: 40px 0; /* Adjusted padding for closer match */
+  margin-bottom: 50px; /* Adjusted margin for better separation */
+  background-color: #1e88e5; /* Updated to match the sample */
   color: #ffffff;
-  border-radius: 8px; /* Increased border radius for smoother corners */
+  border-radius: 10px; /* Adjusted border radius */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
 }
 
 header h1 {
@@ -42,12 +43,12 @@ main {
 }
 
 section {
-  background-color: white;
-  padding: 25px; /* Increased padding for better readability */
-  border-radius: 8px; /* Increased border radius for smoother corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for better depth */
+  background-color: #ffffff;
+  padding: 30px; /* Adjusted padding for better spacing */
+  border-radius: 10px; /* Adjusted border radius */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adjusted shadow for depth */
   width: 100%;
-  max-width: 500px;
+  max-width: 600px; /* Adjusted max width */
 }
 
 section h3 {
@@ -58,16 +59,19 @@ section h3 {
 }
 
 .activity-card {
-  margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  margin-bottom: 20px; /* Adjusted margin for spacing */
+  padding: 20px; /* Adjusted padding for better spacing */
+  border: 1px solid #ccc; /* Adjusted border color */
+  border-radius: 8px; /* Adjusted border radius */
+  background-color: #fdfdfd; /* Slightly lighter background */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
 }
 
 .activity-card h4 {
-  margin-bottom: 10px;
-  color: #0066cc;
+  margin-bottom: 12px; /* Adjusted margin */
+  color: #1565c0; /* Updated color to match sample */
+  font-size: 20px; /* Adjusted font size */
+  font-weight: bold; /* Ensured bold text */
 }
 
 .activity-card p {
@@ -75,11 +79,14 @@ section h3 {
 }
 
 .activity-card ul {
-  margin-top: 10px;
-  padding-left: 30px; /* Increased padding for better indentation */
+  margin-top: 15px; /* Adjusted margin */
+  padding-left: 30px; /* Added slight indentation */
   list-style-type: disc;
-  border-radius: 5px;
-  padding: 15px; /* Increased padding for better spacing */
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 14px; /* Adjusted padding */
+  box-shadow: none; /* Removed shadow */
 }
 
 .activity-card ul li {
@@ -108,18 +115,19 @@ section h3 {
 }
 
 button {
-  background-color: #1a237e;
+  background-color: #1565c0; /* Updated color to match sample */
   color: white;
   border: none;
-  padding: 12px 20px; /* Increased padding for better click area */
-  font-size: 18px; /* Increased font size for better readability */
-  border-radius: 8px; /* Increased border radius for smoother corners */
+  padding: 14px 24px; /* Adjusted padding */
+  font-size: 16px; /* Adjusted font size */
+  border-radius: 10px; /* Adjusted border radius */
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #0d47a1; /* Updated hover color */
+  transform: scale(1.05); /* Added hover scale effect */
 }
 
 message {
@@ -152,8 +160,10 @@ message {
 
 footer {
   text-align: center;
-  margin-top: 50px; /* Increased margin for better separation */
-  padding: 20px;
-  font-size: 14px; /* Reduced font size for a subtler appearance */
-  color: #444; /* Slightly darker color for better contrast */
+  margin-top: 60px; /* Adjusted margin */
+  padding: 25px; /* Adjusted padding */
+  font-size: 14px;
+  color: #555; /* Adjusted color */
+  background-color: #f1f1f1; /* Added background color */
+  border-top: 1px solid #ddd; /* Added border for separation */
 }
